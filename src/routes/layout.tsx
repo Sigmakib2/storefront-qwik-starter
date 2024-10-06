@@ -103,13 +103,9 @@ export default component$(() => {
 
 	return (
 		<div>
-			<Header />
-			<Cart />
-			<Menu />
 			<main class="pb-12 bg-gray-50">
 				<Slot />
 			</main>
-			<Footer />
 		</div>
 	);
 });
