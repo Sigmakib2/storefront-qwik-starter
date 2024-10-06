@@ -15,7 +15,7 @@ export default component$(() => {
 
 		verifyCustomerAccount.__typename !== 'CurrentUser'
 			? (error.value = verifyCustomerAccount.message)
-			: navigate('/account');
+			: navigate('https://infinityvape.store/sign-in/');
 	});
 
 	return (
